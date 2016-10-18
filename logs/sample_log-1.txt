@@ -1,0 +1,331 @@
+
+HTML console ready.
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"fmradio"},{"id":"system"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"fmradio"},{"id":"system"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":false,"Radio_metadata_psd_track_changed":true,"Radio_metadata_psd_artist_changed":true,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":true,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataArtInformation","params":{"payload":{"metaDataArtInfo":"DISPLAY_ALBUMART"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":58,"params":{"region":"NA"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":false,"Radio_metadata_psd_track_changed":true,"Radio_metadata_psd_artist_changed":true,"Radio_metadata_psd_genre_changed":true,"Radio_metadata_psd_album_changed":true,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":false,"Radio_metadata_psd_track_changed":true,"Radio_metadata_psd_artist_changed":true,"Radio_metadata_psd_genre_changed":true,"Radio_metadata_psd_album_changed":true,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":true}}}}
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"","artistName":"","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":58,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"","artistName":"","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":189,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataArtInformation","params":{"payload":{"metaDataArtInfo":"DISPLAY_ALBUMART"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":59,"params":{"region":"NA"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":false,"Radio_metadata_psd_track_changed":true,"Radio_metadata_psd_artist_changed":true,"Radio_metadata_psd_genre_changed":true,"Radio_metadata_psd_album_changed":true,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"","artistName":"","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":59,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"","artistName":"","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":190,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"amradio","msgId":"TaggingStates","params":{"payload":{"tagging_state":"DISABLE_TAGGING"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"TaggingStates","params":{"payload":{"tagging_state":"DISABLE_TAGGING"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"PSD_TRACK_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":60,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":191,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":60,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"PSD_ARTIST_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":61,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":192,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":61,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"PSD_ALBUM_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":62,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":193,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":62,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"PSD_GENRE_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":63,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":194,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":63,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"UFID_ID_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":64,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":195,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":""},"reqId":64,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"amradio","msgId":"TaggingStates","params":{"payload":{"tagging_state":"ENABLE_TAGGING"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"TaggingStates","params":{"payload":{"tagging_state":"ENABLE_TAGGING"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"fmradio"},{"id":"system"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"system","ctxtId":"HomeScreen","contextSeq":426,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"system","currentContextId":"HomeScreen"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"system","ctxtId":"Applications","contextSeq":427,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"system","currentContextId":"Applications"} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":65,"params":{"region":"NA"}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":65,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":196,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":66,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":197,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":66,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":67,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":198,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":67,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CumulativeAvgFuelEconomy","params":{"payload":{"CumulativeAvgFuelEco":{"cntrlstat_fuelEff":{"cumlAvgEfficiency":290},"cumlEff_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CurrEquippedFeature","params":{"payload":{"CurrFeature":"NONE"}}} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CurrAvgDriveFuelEco","params":{"payload":{"CurrentAvgFuelEco":{"CurdrvAvlFuel":{"Drv1AvlFuelE":0},"Valid_PID":true,"CurdrvAvlFuel_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"ecoenergy","ctxtId":"Idle","contextSeq":428,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CurrDrvEcoPerInstBarGraph","params":{"payload":{"CurrDrvFuelEco_BarGraph":{"NumOfReadings":4,"EEM_CurDrvAvgFuelEco":[{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0}],"BarGraph_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CumFuelResetEcoGraphData","params":{"payload":{"CumFuelResetEcoGraph":{"NumOfReadings":0,"EEM_cumAvgFuelEffAfterReset":[{"cumlAvgEfficiency":0},{"cumlAvgEfficiency":0},{"cumlAvgEfficiency":0},{"cumlAvgEfficiency":0},{"cumlAvgEfficiency":0}],"cumBarGraph_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CumulativeAvgFuelEconomy","params":{"payload":{"CumulativeAvgFuelEco":{"cntrlstat_fuelEff":{"cumlAvgEfficiency":290},"cumlEff_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"ecoenergy","ctxtId":"FuelConsumption","contextSeq":429,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"FuelConsumption"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":68,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":199,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":68,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> To Mmui: {"msgType":"event","eventId":"PlayAudioBeep","uiaId":"audiosettings","params":{"payload":{"pressType":"Short","eventCause":"Touch"}},"fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"FuelConsumption"} 
+> To Mmui: {"msgType":"event","eventId":"ResetConfirm","uiaId":"ecoenergy","params":"{}","fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"FuelConsumption"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"ecoenergy","ctxtId":"ResetConfirm","contextSeq":430,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"ResetConfirm"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"PlayAudioBeep","uiaId":"audiosettings","params":{"payload":{"pressType":"Short","eventCause":"Touch"}},"fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"ResetConfirm"} 
+> To Mmui: {"msgType":"event","eventId":"Global.Cancel","uiaId":"Common","params":"{}","fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"ResetConfirm"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"ecoenergy","ctxtId":"FuelConsumption","contextSeq":429,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"FuelConsumption"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":69,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":200,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":69,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> To Mmui: {"msgType":"event","eventId":"PlayAudioBeep","uiaId":"audiosettings","params":{"payload":{"pressType":"Short","eventCause":"Touch"}},"fromVui":false,"currentUiaId":"ecoenergy","currentContextId":"FuelConsumption"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"HDTunerStatusInfo","params":{"payload":{"HDTunerStatus":{"transmission_type":"ANALOG_TRANSMISSION","channel_type":"DIGITAL_CHANNEL","current_playing_sps":"SPS_NONE","HD_sps_receivefault":false,"HD_radio_error":false,"available_sps":[true,false,true,false,false,false,false,false]},"PrevChannelType":"DIGITAL_CHANNEL","PrevTransmission_type":"ANALOG_TRANSMISSION"}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"HDTunerStatusInfo","params":{"payload":{"HDTunerStatus":{"transmission_type":"ANALOG_TRANSMISSION","channel_type":"DIGITAL_CHANNEL","current_playing_sps":"SPS_NONE","HD_sps_receivefault":false,"HD_radio_error":false,"available_sps":[true,false,true,false,false,false,false,false]},"PrevChannelType":"DIGITAL_CHANNEL","PrevTransmission_type":"ANALOG_TRANSMISSION"}}}
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"favorites","msgId":"AudioStatusRadioPlay","params":{"payload":{"radioPlay":"FM","displayName":"97.3","stationName":"Alice "}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":70,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":201,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":70,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":71,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":202,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":71,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CurrAvgDriveFuelEco","params":{"payload":{"CurrentAvgFuelEco":{"CurdrvAvlFuel":{"Drv1AvlFuelE":0},"Valid_PID":true,"CurdrvAvlFuel_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"NewCurrDrvEcoPerInstBarGraph","params":{"payload":{"CurrDrvFuelEcoBar_singleReading":{"NumofReadings":6,"CurDrvSingleReading":[{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0},{"Drv1AvlFuelE":0}],"CurDrvAvgFuelEco_unit":"NONE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"HDTunerStatusInfo","params":{"payload":{"HDTunerStatus":{"transmission_type":"ANALOG_TRANSMISSION","channel_type":"DIGITAL_CHANNEL","current_playing_sps":"SPS_NONE","HD_sps_receivefault":false,"HD_radio_error":false,"available_sps":[true,true,true,false,false,false,false,false]},"PrevChannelType":"DIGITAL_CHANNEL","PrevTransmission_type":"ANALOG_TRANSMISSION"}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"HDTunerStatusInfo","params":{"payload":{"HDTunerStatus":{"transmission_type":"ANALOG_TRANSMISSION","channel_type":"DIGITAL_CHANNEL","current_playing_sps":"SPS_NONE","HD_sps_receivefault":false,"HD_radio_error":false,"available_sps":[true,true,true,false,false,false,false,false]},"PrevChannelType":"DIGITAL_CHANNEL","PrevTransmission_type":"ANALOG_TRANSMISSION"}}}
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"favorites","msgId":"AudioStatusRadioPlay","params":{"payload":{"radioPlay":"FM","displayName":"97.3","stationName":"Alice "}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"ecoenergy"},{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"ecoenergy","msgId":"CumulativeAvgFuelEconomy","params":{"payload":{"CumulativeAvgFuelEco":{"cntrlstat_fuelEff":{"cumlAvgEfficiency":290},"cumlEff_unit":"USMILESPERGAL"}}}} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"system","ctxtId":"Applications","contextSeq":427,"params":{}} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"ecoenergy","ctxtId":"Idle","contextSeq":431,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"system","currentContextId":"Applications"} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":72,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":203,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":72,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"ctxtChg","uiaId":"system","ctxtId":"HomeScreen","contextSeq":426,"params":{}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> To Mmui: {"msgType":"event","eventId":"DisplayOffNotificationEvent","uiaId":"system","params":{"payload":{"notificationActive":0}},"fromVui":false,"currentUiaId":"system","currentContextId":"HomeScreen"} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":73,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":204,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":73,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":74,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":205,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":74,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":75,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":206,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":75,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"hdtrafficimage","msgId":"LastTileUpdateTime","params":{"payload":{"UpdateTime":5}}} 
+> From Mmui: {"msgType":"msg","uiaId":"syssettings","msgId":"SendCurrentTimeEpoch","params":{"payload":{"u32TimestampSec":1476732600}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":76,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":207,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":76,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":77,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":208,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":77,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDistRemaining","params":{"payload":{"schedmaintdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintTimeRemaining","params":{"payload":{"schedmaintTime":115}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"TireRotationDistRemaining","params":{"payload":{"tirerotationdistance":{"Distance":4815,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilMaintenanceDistanceChange","params":{"payload":{"distance":{"Distance":0,"Unit":"MILE"}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"OilLife","params":{"payload":{"oillife":100}}} 
+> From Mmui: {"msgType":"transition","enabled":true} 
+> From Mmui: {"msgType":"msg","uiaId":"system","msgId":"StatusUpdateSchedMaint","params":{"payload":{"due":false}}} 
+> From Mmui: {"msgType":"focusStack","appIdList":[{"id":"system"},{"id":"fmradio"},{"id":"favorites"},{"id":"syssettings"}]} 
+> From Mmui: {"msgType":"transition","enabled":false} 
+> From Mmui: {"msgType":"msg","uiaId":"schedmaint","msgId":"SchedMaintDue","params":{"payload":{"schedmaintdue":{"VWM_ScheduleMaintDue":4,"status":false}}}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":78,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":209,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":78,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataChangeNotification","params":{"payload":{"metaDataChangeNote":{"Radio_metadata_psd_sis_changed":true,"Radio_metadata_psd_track_changed":false,"Radio_metadata_psd_artist_changed":false,"Radio_metadata_psd_genre_changed":false,"Radio_metadata_psd_album_changed":false,"Radio_metadata_ufid_url_changed":false,"Radio_metadata_ufid_id_changed":false}}}}
+> From Mmui: {"msgType":"msg","uiaId":"fmradio","msgId":"MetaDataInformation","params":{"payload":{"metaDataStatus":"SIS_UPDATED"}}} 
+> To Dbapi: {"msgType":"method","msgContent":{"api":"radio","methodName":"FmNowPlayingMetadata","reqId":79,"params":{"region":"NA"}}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":210,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+> From DBAPI: {"msgType":"methodResponse","msgContent":{"params":{"genre":"None","trackTitle":"Dancing On My Own","artistName":"Calum Scott","albumName":"Dancing On My Own [Single]","radioText":"","eCode":0,"eStr":"","albumArtPath":"","sisData":"KLLC-FM","stationLogoPath":"/data/stationlogo/97.30/1/78A2.jpg"},"reqId":79,"api":"radio","methodName":"FmNowPlayingMetadata"}} 
+clear log
+GoBack Stack: Clear system.HomeScreen
+12:30
+Communication
